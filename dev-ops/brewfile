@@ -1,0 +1,4 @@
+brew 'awscli'
+brew 'ansible'
+brew 'terraform'
+brew 'packer'
