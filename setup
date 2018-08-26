@@ -1,0 +1,31 @@
+#!/usr/bin/env bash
+
+set -e
+
+cd "$(dirname "$0")"
+
+mkdir -p ~/workspace
+
+./brew.sh
+
+cp .bash_profile ~/.bash_profile
+
+git clone --depth=1 https://github.com/Bash-it/bash-it.git ~/.bash_it
+
+echo "Installing bash-it"
+echo "Gradle plugin is nice along with most aliases"
+~/.bash_it/install.sh --interactive
+
+source ~/.bash_profile
+
+./git.sh
+
+if [ "$(uname -s)" == Darwin* ]; then
+    ./osx.sh
+fi
+
+echo "Finished"
+echo "Install Chrome https://www.google.com/chrome/"
+echo "Install IntelliJ https://www.jetbrains.com/idea/download"
+echo "Install Java https://www.oracle.com/technetwork/java/javase/downloads/index.html"
+echo "Install Slack https://slack.com/downloads"

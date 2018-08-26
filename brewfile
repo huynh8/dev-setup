@@ -1,0 +1,16 @@
+tap 'caskroom/homebrew-cask'
+
+brew 'git'
+brew 'docker-machine'
+brew 'docker'
+brew 'docker-compose'
+brew 'jq'
+brew 'direnv'
+
+cask 'iterm2'
+cask 'virtualbox'
+cask 'flycut'
+cask 'shiftit'
+cask 'atom'
+cask 'postman'
+cask 'gitify'
