@@ -4,6 +4,11 @@ set -e
 
 brew bundle
 
+nvm install lts/*
+nvm alias default lts/*
+
+echo "Installed node version $(nvm current)"
+
 npm install --global webpack
 npm install --global grunt-cli
 npm install --global gulp-cli

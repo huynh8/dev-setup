@@ -1,2 +1,1 @@
-brew 'node@6'
 brew 'nvm'
