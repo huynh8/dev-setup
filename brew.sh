@@ -14,7 +14,7 @@ brew bundle
 brew cleanup
 
 echo "configure shiftit to select 1/3 screen width, 1/2 screen width and 2/3 screen width:"
-echo "`defaults write org.shiftitapp.ShiftIt multipleActionsCycleWindowSizes YES`"
+defaults write org.shiftitapp.ShiftIt multipleActionsCycleWindowSizes YES
 
 echo "Downloading dark theme for iterm"
 git clone https://github.com/dracula/iterm.git ~/workspace/darcula-iterm
