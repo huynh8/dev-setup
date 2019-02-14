@@ -8,5 +8,3 @@ Run `./node/node.sh`
 1. `cd dev-ops`
 2. `brew bundle`
 
-##### Vim
-https://github.com/amix/vimrc#install-for-your-own-user-only
