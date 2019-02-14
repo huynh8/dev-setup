@@ -32,7 +32,5 @@ chmod a+rx,go-w /usr/local/bin/dockutil
 dockutil --list | awk -F\t '{print "dockutil --remove \""$1"\" --no-restart"}' | sh
 dockutil --add /Applications/Google\ Chrome.app --no-restart
 dockutil --add /Applications/System\ Preferences.app --no-restart
-dockutil --add /Applications/Slack.app --no-restart
-dockutil --add /Applications/Intellij\ IDEA.app --no-restart
 dockutil --add /Applications/Docker.app --no-restart
 dockutil --add /Applications/iTerm.app
