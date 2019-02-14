@@ -26,7 +26,7 @@ sed -i -e 's/solarized/darkblue' ~/.vimrc.local
 
 ./git.sh
 
-if [ "$(uname -s)" == Darwin* ]; then
+if [[ "$(uname -s)" == Darwin* ]]; then
     ./osx.sh
 fi
 
