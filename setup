@@ -32,6 +32,8 @@ fi
 
 echo "Finished"
 echo "Install Chrome https://www.google.com/chrome/"
-echo "Install IntelliJ https://www.jetbrains.com/idea/download"
-echo "Install Java https://www.oracle.com/technetwork/java/javase/downloads/index.html"
+echo "Use Jetbrains Toolbox to install IDEs"
+echo "Ad blocker for chrome https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm"
+echo "Json formatter for chrome https://chrome.google.com/webstore/detail/json-formatter/bcjindcccaagfpapjjmafapmmgkkhgoa?hl=en-US"
+echo "Install Java 8 or below https://www.oracle.com/technetwork/java/javase/downloads/index.html"
 echo "Install Slack https://slack.com/downloads"
