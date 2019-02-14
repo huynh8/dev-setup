@@ -6,6 +6,8 @@ cd "$(dirname "$0")"
 
 mkdir -p ~/workspace
 
+xcode-select --install
+
 ./brew.sh
 
 cp .bash_profile ~/.bash_profile
