@@ -4,6 +4,8 @@ set -e
 
 brew bundle
 
+./bash-it-config.sh
+
 nvm install lts/*
 nvm alias default lts/*
 

@@ -6,8 +6,6 @@ cd "$(dirname "$0")"
 
 mkdir -p ~/workspace
 
-xcode-select --install
-
 ./brew.sh
 
 cp .bash_profile ~/.bash_profile
@@ -15,16 +13,18 @@ cp .bash_profile ~/.bash_profile
 git clone --depth=1 https://github.com/Bash-it/bash-it.git ~/.bash_it
 
 echo "Installing bash-it"
-echo "Gradle plugin is nice along with most aliases"
 ~/.bash_it/install.sh --interactive
 
 source ~/.bash_profile
 
+./bash-it-config.sh
+
 git clone --depth=1 https://github.com/amix/vimrc.git ~/.vim_runtime
 sh ~/.vim_runtime/install_awesome_vimrc.sh
 
+# TODO: figure out how to set below (default color scheme is okay for now)
 # Set theme to darkblue for vim
-sed -i -e 's/solarized/darkblue' ~/.vimrc.local
+#sed -i -e 's/solarized/darkblue' ~/.vimrc.local
 
 ./git.sh
 
@@ -38,4 +38,10 @@ echo "Use Jetbrains Toolbox to install IDEs"
 echo "Ad blocker for chrome https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm"
 echo "Json formatter for chrome https://chrome.google.com/webstore/detail/json-formatter/bcjindcccaagfpapjjmafapmmgkkhgoa?hl=en-US"
 echo "Install Java 8 or below https://www.oracle.com/technetwork/java/javase/downloads/index.html"
-echo "Install Slack https://slack.com/downloads"
+echo "Install Slack https://slack.com/downloads\n\n"
+
+echo "Useful Jetbrains plugins\n"
+echo "BashSupport\n"
+echo ".ignore\n"
+echo "SonarLint\n"
+echo "SQL Formatter\n"

@@ -7,7 +7,6 @@ brew 'direnv'
 
 cask 'docker'
 cask 'iterm2'
-cask 'virtualbox'
 cask 'flycut'
 cask 'shiftit'
 cask 'atom'

@@ -2,6 +2,8 @@
 
 set -e
 
+echo "Go to https://developer.apple.com/download/more/ to download just xcode command line tools (hopefully you can just use command line if not RIP because you're working corporate :( )"
+
 if hash brew 2>/dev/null; then
     echo "Homebrew is already installed"
 else
