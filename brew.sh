@@ -20,3 +20,5 @@ defaults write org.shiftitapp.ShiftIt multipleActionsCycleWindowSizes YES
 
 echo "Downloading dark theme for iterm"
 git clone https://github.com/dracula/iterm.git ~/workspace/darcula-iterm
+
+echo "Go to profile -> text and setup natural text editing"
