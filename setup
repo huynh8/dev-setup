@@ -18,6 +18,7 @@ echo "Installing bash-it"
 source ~/.bash_profile
 
 ./bash-it-config.sh
+./atom.sh
 
 git clone --depth=1 https://github.com/amix/vimrc.git ~/.vim_runtime
 sh ~/.vim_runtime/install_awesome_vimrc.sh
