@@ -2,7 +2,6 @@
 
 set -ex
 
-bash-it enable plugin pyenv
 bash-it enable plugin python
 bash-it enable plugin virtualenv
 
