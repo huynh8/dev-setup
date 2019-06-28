@@ -2,28 +2,12 @@
 
 set -ex
 
+source $BASH_IT/bash_it.sh
+
 bash-it enable plugin alias-completion
-bash-it enable plugin base
-bash-it enable plugin battery
-bash-it enable plugin direnv
-bash-it enable plugin docker-compose
-bash-it enable plugin docker
 bash-it enable plugin edit-mode-emacs
-bash-it enable plugin explain
-bash-it enable plugin extract
-bash-it enable plugin git
 bash-it enable plugin gradle
 bash-it enable plugin history
-bash-it enable plugin java
-bash-it enable plugin latex
-bash-it enable plugin less-pretty-cat
-bash-it enable plugin osx-timemachine
-bash-it enable plugin osx
-bash-it enable plugin postgres
-bash-it enable plugin projects
-bash-it enable plugin ssh
-bash-it enable plugin todo
-bash-it enable plugin xterm
 
 bash-it enable alias atom
 bash-it enable alias clipboard
