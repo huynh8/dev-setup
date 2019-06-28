@@ -13,9 +13,9 @@ cp .bash_profile ~/.bash_profile
 git clone --depth=1 https://github.com/Bash-it/bash-it.git ~/.bash_it
 
 echo "Installing bash-it"
-~/.bash_it/install.sh --interactive
+~/.bash_it/install.sh
 
-source ~/.bash_profile
+source ~/.bash_profile --silent
 
 ./bash-it-config.sh
 ./atom.sh
