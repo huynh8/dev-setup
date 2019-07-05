@@ -8,6 +8,8 @@ mkdir -p ~/workspace
 
 ./brew.sh
 
+/usr/local/opt/fzf/install
+
 cp .bash_profile ~/.bash_profile
 
 git clone --depth=1 https://github.com/Bash-it/bash-it.git ~/.bash_it
@@ -39,6 +41,8 @@ echo "Use Jetbrains Toolbox to install IDEs"
 echo "Ad blocker for chrome https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm"
 echo "Json formatter for chrome https://chrome.google.com/webstore/detail/json-formatter/bcjindcccaagfpapjjmafapmmgkkhgoa?hl=en-US"
 echo "Install Java 8 or below https://www.oracle.com/technetwork/java/javase/downloads/index.html"
+echo "Setup go2shell https://superuser.com/questions/434660/how-to-open-go2shell-preferences-in-mac-osx"
+echo "Setup Alfred"
 echo "Install Slack https://slack.com/downloads\n"
 
 echo "Useful Jetbrains plugins"
