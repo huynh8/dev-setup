@@ -8,6 +8,7 @@ bash-it enable plugin alias-completion
 bash-it enable plugin edit-mode-emacs
 bash-it enable plugin gradle
 bash-it enable plugin history
+bash-it enable plugin projects
 
 bash-it enable alias atom
 bash-it enable alias clipboard
