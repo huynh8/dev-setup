@@ -2,6 +2,8 @@
 
 set -ex
 
+source $BASH_IT/bash_it.sh
+
 bash-it enable plugin node
 bash-it enable plugin nvm
 

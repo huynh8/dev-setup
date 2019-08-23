@@ -2,6 +2,8 @@
 
 set -ex
 
+source $BASH_IT/bash_it.sh
+
 bash-it enable plugin python
 bash-it enable plugin virtualenv
 
