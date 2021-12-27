@@ -20,7 +20,6 @@ echo "Installing bash-it"
 source ~/.bash_profile --silent
 
 ./bash-it-config.sh
-./atom.sh
 
 git clone --depth=1 https://github.com/amix/vimrc.git ~/.vim_runtime
 sh ~/.vim_runtime/install_awesome_vimrc.sh
@@ -37,16 +36,18 @@ fi
 
 echo "Finished"
 echo "Install Chrome https://www.google.com/chrome/"
-echo "Use Jetbrains Toolbox to install IDEs"
 echo "Ad blocker for chrome https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm"
 echo "Json formatter for chrome https://chrome.google.com/webstore/detail/json-formatter/bcjindcccaagfpapjjmafapmmgkkhgoa?hl=en-US"
-echo "Install Java 8 or below https://www.oracle.com/technetwork/java/javase/downloads/index.html"
 echo "Setup go2shell https://superuser.com/questions/434660/how-to-open-go2shell-preferences-in-mac-osx"
 echo "Setup Alfred"
 echo "Install Slack https://slack.com/downloads\n"
 
 echo "Useful Jetbrains plugins"
-echo "BashSupport"
-echo ".ignore"
+echo "String Manipulation"
+echo "Bitbucket Linky"
+echo "JPA Buddy"
+echo "Randomness"
+echo "UUID Generator"
+echo "Rainbow Brackets"
 echo "SonarLint"
 echo "SQL Formatter"

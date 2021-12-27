@@ -2,6 +2,8 @@
 
 set -ex
 
+brew install atom
+
 apm install intellij-idea-keymap
 apm install autosave
 apm install project-manager
