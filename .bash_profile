@@ -10,3 +10,9 @@ fi
 
 export BASH_SILENCE_DEPRECATION_WARNING=1
 
+eval "$(zoxide init bash)"
+
+gcof() {
+    git checkout "$(git branch --all --format "%(refname:short") --sort=-committerdate | sed 's/origin\///' | fzf)"
+}
+

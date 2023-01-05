@@ -18,6 +18,7 @@ bash-it enable alias general
 bash-it enable alias git
 bash-it enable alias homebrew-cask
 bash-it enable alias homebrew
+bash-it enable alias maven
 bash-it enable alias osx
 bash-it enable alias textmate
 bash-it enable alias todo.txt-cli
@@ -34,4 +35,5 @@ bash-it enable completion export
 bash-it enable completion git
 bash-it enable completion git_flow_avh
 bash-it enable completion gradle
+bash-it enable completion maven
 bash-it enable completion ssh
