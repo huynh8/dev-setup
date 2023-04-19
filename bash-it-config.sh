@@ -2,15 +2,12 @@
 
 set -ex
 
-source $BASH_IT/bash_it.sh
-
 bash-it enable plugin alias-completion
 bash-it enable plugin edit-mode-emacs
 bash-it enable plugin gradle
 bash-it enable plugin history
 
 bash-it enable alias atom
-bash-it enable alias clipboard
 bash-it enable alias curl
 bash-it enable alias docker-compose
 bash-it enable alias docker
