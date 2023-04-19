@@ -8,7 +8,7 @@ mkdir -p ~/workspace
 
 ./brew.sh
 
-/usr/local/opt/fzf/install
+/opt/homebrew/opt/fzf/install
 
 cp .bash_profile ~/.bash_profile
 
